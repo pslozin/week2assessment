@@ -112,21 +112,21 @@ console.log(category)
 let foodArr = [
     
     {
-        name: "Pizza"
-        price: 5
-        tags: "Hot"
+        name: "Pizza",
+        price: 5,
+        tags: "Hot",
     },
 
     {
-        name: "Steak"
-        price: 10
+        name: "Steak",
+        price: 10,
         tags: "Rare"
     },
     
     {
-        name: "Fish"
-        price: 8
-        tags: "Salmmon"
+        name: "Fish",
+        price: 8,
+        tags: "Healty"
 
     },
     {
@@ -141,9 +141,6 @@ let foodArr = [
         tags: "Healthy"
     }
     
-   
-
-
     
 ]
 
@@ -162,8 +159,13 @@ let foodArr = [
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
+
+const filteredFood = foodArr.filter((arrObj) =>{
+    return arrObj.tags === "Healthy"
+})
+
+console.log(filteredFood)
 
 
 //////////////////PROBLEM 5////////////////////
