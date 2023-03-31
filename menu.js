@@ -35,7 +35,7 @@
 const Pizza = {
     
     name: "",
-    price: 0,
+    price: 70,
     category: "",
     popularity: 5,
     rating: 0,
@@ -78,6 +78,8 @@ console.log(Pizza.tags[1])
 
 //CODE HERE
 
+const {price} = Pizza
+console.log(price)
 
 /*
     Fourth, and last, destructure the category
