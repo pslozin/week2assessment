@@ -109,6 +109,43 @@ console.log(category)
 
 //CODE HERE
 
+let foodArr = [
+    
+    {
+        name: "Pizza"
+        price: 5
+        tags: "Hot"
+    },
+
+    {
+        name: "Steak"
+        price: 10
+        tags: "Rare"
+    },
+    
+    {
+        name: "Fish"
+        price: 8
+        tags: "Salmmon"
+
+    },
+    {
+        name: "Sweets",
+        price: 4,
+        tags: "Desert"
+
+    },
+    {
+        name: "Vegetables",
+        price: "6",
+        tags: "Healthy"
+    }
+    
+   
+
+
+    
+]
 
 
 //////////////////PROBLEM 4////////////////////
