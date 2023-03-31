@@ -36,7 +36,7 @@ const Pizza = {
     
     name: "",
     price: 70,
-    category: "",
+    category: "good",
     popularity: 5,
     rating: 0,
     tags: ["Crispy","Hot","Small"]
@@ -89,6 +89,10 @@ console.log(price)
 */
 
 //CODE HERE
+
+const {category} = Pizza
+console.log(category)
+
 
 
 //////////////////PROBLEM 3////////////////////
